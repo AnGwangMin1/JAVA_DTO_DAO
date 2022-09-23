@@ -1,0 +1,13 @@
+[ DTO, DAO ]
+
+class - DataType 측면 : 설계도(틀)역할 ==> 모델링 도구
+		OOP 측면 : 멤버(상태정보(속성) + 행위정보(기능))를 
+				  캡슐화하는 도구
+		"class를 Model이라고도 한다."
+		
+Model의 종류
+DTO(Data Transfer Object) : 데이터를 이동시키기 위해서 묶어주는 역할
+	== VO(Value Object) : 객체를 담아서 하나의 덩어리로 취급하는 역할
+DAO(Data Access Object) : 데이터를 처리(CRUD)하는 역할(비즈니스 로직 처리)
+Utility(Helper Object) : 편리한 기능을 제공하는 역할(날짜, 시간, 통화, ...)
+ 		
